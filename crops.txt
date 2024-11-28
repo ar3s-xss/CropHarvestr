@@ -18,3 +18,7 @@ ares:ares123
 ares:ares123
 ares:ares123
 Ivan:MyLittlePony123
+test:0987654321
+fffff:asd
+abc@abc.com:adadasda
+skyf@zone.ua:S.T.A.L.K.E.R.2

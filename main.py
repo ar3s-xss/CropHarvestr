@@ -9,9 +9,8 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        defval = 0
-        username = request.form.get('username', defval)
-        password = request.form.get('password', defval)
+        username = request.form['email']
+        password = request.form['password']
         potatoes = Crops.Crops(username, password)
         if username == '' and password == '':
             return redirect(url_for('failed'))
